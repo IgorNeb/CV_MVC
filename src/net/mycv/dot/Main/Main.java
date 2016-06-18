@@ -4,7 +4,10 @@ import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.TitledPane;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.TilePane;
 import javafx.stage.Stage;
 
 
@@ -21,17 +24,22 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         window = primaryStage;
-        BorderPane bp = (BorderPane) FXMLLoader.load(Main.class.getResource("../View/MainWindow.fxml"));
+        AnchorPane bp = (AnchorPane) FXMLLoader.load(Main.class.getResource("../View/main.fxml"));
         window.setTitle("StartMenu");
-        window.setScene(new Scene(bp));
+        Scene scene = new Scene(bp);
+        scene.getStylesheets().add("/Style/mystyle.css");
+        window.setScene(scene);
         window.show();
+
 
     }
 
     static void mainWindow() throws IOException {
-        BorderPane bp = (BorderPane) FXMLLoader.load(Main.class.getResource("../View/MainWindow.fxml"));
+        AnchorPane bp = (AnchorPane) FXMLLoader.load(Main.class.getResource("../View/main.fxml"));
         window.setTitle("StartMenu");
-        window.setScene(new Scene(bp));
+        Scene scene = new Scene(bp);
+        scene.getStylesheets().add("/Style/mystyle.css");
+        window.setScene(scene);
         window.show();
 
     }
