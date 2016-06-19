@@ -39,6 +39,9 @@ public class Main extends Application {
         window.setTitle("StartMenu");
         Scene scene = new Scene(bp);
         scene.getStylesheets().add("/net/mycv/dot/Style/mystyle.css");
+        window.setMinWidth(700);
+        window.setMinHeight(500);
+        window.setResizable(false);
         window.setScene(scene);
         window.show();
 
@@ -55,7 +58,11 @@ public class Main extends Application {
         AnchorPane bp = (AnchorPane) FXMLLoader.load(Main.class.getResource("../View/EnglishWindow.fxml"));
         window.setTitle("StartMenu");
         window.setScene(new Scene(bp));
+        window.setMinWidth(500);
+        window.setMinHeight(600);
+        window.setResizable(false);
         window.show();
+
     }
 
 
