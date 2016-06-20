@@ -24,8 +24,6 @@ public class Main extends Application {
         scene.getStylesheets().add("/net/mycv/dot/Style/mystyle.css");
         window.setScene(scene);
         window.show();
-
-
     }
 
     public static void mainWindow() throws IOException {
@@ -38,7 +36,6 @@ public class Main extends Application {
         window.setResizable(false);
         window.setScene(scene);
         window.show();
-
     }
 
     public static void Ukr()throws IOException{

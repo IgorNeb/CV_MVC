@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="600.0" style="-fx-background-color: white;" stylesheets="@../Style/mystyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.mycv.dot.Controller.Controller">
+   <children>
+      <Text layoutX="19.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I have decided to change the profile of my work and make a career in IT field. My knowledge received at the institute and big experience in work with business processes will help me to start successfully. I have desire and ready to learn a lot of information. I work every day to improve my skills and level." wrappingWidth="562.13671875" AnchorPane.bottomAnchor="61.140625" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="12.859375">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

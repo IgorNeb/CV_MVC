@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: white;" styleClass="background" stylesheets="@../Style/mystyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.mycv.dot.Controller.Controller">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="390.0" fitWidth="700.0" layoutY="110.0">
+               <image>
+                  <Image url="@../Style/images/title.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane prefHeight="83.0" prefWidth="700.0" AnchorPane.bottomAnchor="417.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text layoutX="61.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вітаю! ">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="61.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello! I glad to show you information about myself">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Pane layoutX="301.0" layoutY="86.0" prefHeight="76.0" prefWidth="378.0">
+               <children>
+                  <Text layoutX="61.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please, choose a language" wrappingWidth="239.10546875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="61.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Будь ласка, оберіть мову" wrappingWidth="239.10546875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <VBox layoutX="350.0" layoutY="168.0" prefHeight="332.0" prefWidth="214.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="136.0" AnchorPane.topAnchor="168.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#goEnglish" prefHeight="55.0" prefWidth="120.0" text="English" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="50.0" left="50.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#goUkr" prefHeight="55.0" prefWidth="120.0" text="Ukrainian" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <AnchorPane layoutY="70.0" prefHeight="431.0" prefWidth="401.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="299.0" AnchorPane.topAnchor="70.0">
+         <children>
+            <ImageView fitHeight="197.0" fitWidth="200.0" layoutX="101.0" layoutY="14.0">
+               <image>
+                  <Image url="@../Style/images/resume.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

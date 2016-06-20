@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" stylesheets="@../Style/mystyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Knowledge: OOP, UML," wrappingWidth="464.0" AnchorPane.bottomAnchor="364.984375" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="122.0" AnchorPane.topAnchor="13.734375">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+      <Text layoutX="27.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JDBC,  SQL,  CSS MVC Pattern" wrappingWidth="301.13671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="27.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GUI with JavaFX." wrappingWidth="164.13671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="27.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tools: Eclipse, IntelliJ IDEAOracle SQL developer, Oracle Database 11g Express Edition,MySQL, MySQL Workbench, Git." wrappingWidth="566.5234375">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="24.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Operation System: Windows family, Linux.">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>

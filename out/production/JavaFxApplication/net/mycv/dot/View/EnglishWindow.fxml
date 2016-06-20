@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: white;" stylesheets="@../Style/mystyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.mycv.dot.Controller.Controller">
+   <children>
+      <AnchorPane prefHeight="606.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select issue and click button" textAlignment="CENTER" wrappingWidth="500.0" AnchorPane.bottomAnchor="568.078125" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Button layoutX="123.0" layoutY="60.0" mnemonicParsing="false" onAction="#goObject" prefHeight="33.0" prefWidth="252.0" text="Objective" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="165.0" layoutY="541.0" mnemonicParsing="false" onAction="#goMainMenu" text="Back to main manu" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="124.0" layoutY="428.0" mnemonicParsing="false" onAction="#goAdditional" text="Additional Information" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="126.0" layoutY="178.0" mnemonicParsing="false" onAction="#goExperience" prefHeight="33.0" prefWidth="252.0" text="Experience" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="124.0" layoutY="302.0" mnemonicParsing="false" onAction="#goLanguage" text="Language skills" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="124.0" layoutY="241.0" mnemonicParsing="false" onAction="#goCourse" prefHeight="33.0" prefWidth="252.0" text="Courses, Trainings, Certification" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="124.0" layoutY="366.0" mnemonicParsing="false" onAction="#goEducation" text="Education" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="124.0" layoutY="117.0" mnemonicParsing="false" onAction="#goSummary" prefHeight="33.0" prefWidth="252.0" text="Summary" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
