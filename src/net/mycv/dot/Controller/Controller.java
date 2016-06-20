@@ -123,4 +123,101 @@ public class Controller {
         stage.initOwner(((Node) event.getSource()).getScene().getWindow());
         stage.show();
     }
+    public void goObjectRu(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        AnchorPane AP = (AnchorPane) FXMLLoader.load(getClass().getResource("../View/ObjectiveRu.fxml"));
+        Scene scene = new Scene(AP);
+        stage.setTitle("Objective");
+        stage.setResizable(false);
+        stage.setScene(scene);
+        stage.setMinWidth(600);
+        stage.setMinHeight(160);
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(((Node) event.getSource()).getScene().getWindow());
+        stage.show();
+
+    }
+
+    public void goSummaryRu(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        AnchorPane AP = (AnchorPane) FXMLLoader.load(getClass().getResource("../View/SummaryRu.fxml"));
+        Scene scene = new Scene(AP);
+        stage.setTitle("Summary");
+        stage.setResizable(false);
+        stage.setScene(scene);
+        stage.setMinWidth(600);
+        stage.setMinHeight(160);
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(((Node) event.getSource()).getScene().getWindow());
+        stage.show();
+
+    }
+
+    public void goExperienceRu(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        AnchorPane AP = (AnchorPane) FXMLLoader.load(getClass().getResource("../View/ExperienceRu.fxml"));
+        Scene scene = new Scene(AP);
+        stage.setTitle("Experience");
+        stage.setResizable(false);
+        stage.setScene(scene);
+        stage.setMinWidth(600);
+        stage.setMinHeight(160);
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(((Node) event.getSource()).getScene().getWindow());
+        stage.show();
+    }
+
+    public void goCourseRu(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        AnchorPane AP = (AnchorPane) FXMLLoader.load(getClass().getResource("../View/CourseRu.fxml"));
+        Scene scene = new Scene(AP);
+        stage.setTitle("Courses, Trainings, Certification");
+        stage.setResizable(false);
+        stage.setScene(scene);
+        stage.setMinWidth(600);
+        stage.setMinHeight(160);
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(((Node) event.getSource()).getScene().getWindow());
+        stage.show();
+
+    }
+    public void goLanguageRu(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        AnchorPane AP = (AnchorPane) FXMLLoader.load(getClass().getResource("../View/LanguageRu.fxml"));
+        Scene scene = new Scene(AP);
+        stage.setTitle("Language");
+        stage.setResizable(false);
+        stage.setScene(scene);
+        stage.setMinWidth(600);
+        stage.setMinHeight(160);
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(((Node) event.getSource()).getScene().getWindow());
+        stage.show();
+    }
+    public void goEducationRu(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        AnchorPane AP = (AnchorPane) FXMLLoader.load(getClass().getResource("../View/EducationRu.fxml"));
+        Scene scene = new Scene(AP);
+        stage.setTitle("Education");
+        stage.setResizable(false);
+        stage.setScene(scene);
+        stage.setMinWidth(600);
+        stage.setMinHeight(160);
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(((Node) event.getSource()).getScene().getWindow());
+        stage.show();
+    }
+    public void goAdditionalRu(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        AnchorPane AP = (AnchorPane) FXMLLoader.load(getClass().getResource("../View/AdditionalRu.fxml"));
+        Scene scene = new Scene(AP);
+        stage.setTitle("Additional Information");
+        stage.setResizable(false);
+        stage.setScene(scene);
+        stage.setMinWidth(600);
+        stage.setMinHeight(160);
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(((Node) event.getSource()).getScene().getWindow());
+        stage.show();
+    }
 }
