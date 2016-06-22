@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="600.0" style="-fx-background-color: white;" stylesheets="@../Style/mystyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="14.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Национальный Технический Университет Украины«Киевский Политехнический Институт» " wrappingWidth="551.2529296875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“Информатики и вычислительной техники”, Бакалавр" />
+   </children>
+</AnchorPane>

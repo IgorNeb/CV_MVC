@@ -1,13 +1,9 @@
 package net.mycv.dot.Main;
 
 import javafx.application.Application;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.TitledPane;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.TilePane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import java.io.IOException;
@@ -23,6 +19,7 @@ public class Main extends Application {
         Scene scene = new Scene(bp);
         scene.getStylesheets().add("/net/mycv/dot/Style/mystyle.css");
         window.setScene(scene);
+        window.setMinHeight(500);
         window.show();
     }
 
@@ -31,9 +28,8 @@ public class Main extends Application {
         window.setTitle("StartMenu");
         Scene scene = new Scene(bp);
         scene.getStylesheets().add("/net/mycv/dot/Style/mystyle.css");
-        window.setMinWidth(700);
-        window.setMinHeight(500);
         window.setResizable(false);
+        window.setMinHeight(500);
         window.setScene(scene);
         window.show();
     }
@@ -41,7 +37,10 @@ public class Main extends Application {
     public static void Ukr()throws IOException{
         VBox bp = (VBox) FXMLLoader.load(Main.class.getResource("../View/UkrWindow.fxml"));
         window.setTitle("StartMenu");
-        window.setScene(new Scene(bp));
+        window.setScene(new Scene(bp, 500, 600));
+        window.setMinWidth(500);
+        window.setMinHeight(600);
+        window.setResizable(false);
         window.show();
     }
 

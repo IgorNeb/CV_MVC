@@ -7,11 +7,11 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: white;" styleClass="background" stylesheets="@../Style/mystyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.mycv.dot.Controller.Controller">
+<AnchorPane maxHeight="500.0" maxWidth="700.0" minHeight="500.0" minWidth="700.0" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: white;" styleClass="background" stylesheets="@../Style/mystyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.mycv.dot.Controller.Controller">
    <children>
-      <Pane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane layoutY="110.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="110.0">
          <children>
-            <ImageView fitHeight="390.0" fitWidth="700.0" layoutY="110.0">
+            <ImageView fitHeight="390.0" fitWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <image>
                   <Image url="@../Style/images/title.jpg" />
                </image>
@@ -20,7 +20,7 @@
                </viewport>
             </ImageView>
          </children>
-      </Pane>
+      </AnchorPane>
       <Pane prefHeight="83.0" prefWidth="700.0" AnchorPane.bottomAnchor="417.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Text layoutX="61.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вітаю! ">
