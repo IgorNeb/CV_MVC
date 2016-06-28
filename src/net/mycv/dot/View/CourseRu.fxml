@@ -11,12 +11,12 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="14.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fly High Center - english school. I was trained by pre-intermediate level and then intermediate level." />
+      <Text layoutX="14.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fly High Center - Курси англійської мови. Рівень sntermidiate" />
       <Text layoutX="14.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Brain Academy(Kiev)">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text layoutX="14.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course of JavaSE. Test system and project MVC." />
+      <Text layoutX="14.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Курси програмування  JavaSE.  Проект MVC." />
    </children>
 </AnchorPane>

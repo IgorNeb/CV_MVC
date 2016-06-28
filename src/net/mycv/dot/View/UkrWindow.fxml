@@ -9,19 +9,19 @@
    <children>
       <AnchorPane prefHeight="606.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выбирете раздел" textAlignment="CENTER" wrappingWidth="500.0" AnchorPane.bottomAnchor="568.078125" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <Text layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оберіть розділ" textAlignment="CENTER" wrappingWidth="500.0" AnchorPane.bottomAnchor="568.078125" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <font>
                   <Font size="24.0" />
                </font>
             </Text>
-            <Button layoutX="123.0" layoutY="60.0" mnemonicParsing="false" onAction="#goObjectRu" prefHeight="33.0" prefWidth="252.0" text="Цель" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
-            <Button layoutX="165.0" layoutY="541.0" mnemonicParsing="false" onAction="#goMainMenu" text="Вернуться на главное меню" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
-            <Button layoutX="124.0" layoutY="428.0" mnemonicParsing="false" onAction="#goAdditionalRu" text="Дополнительная информация" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
-            <Button layoutX="126.0" layoutY="178.0" mnemonicParsing="false" onAction="#goExperienceRu" prefHeight="33.0" prefWidth="252.0" text="Опыт работы" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
-            <Button layoutX="124.0" layoutY="302.0" mnemonicParsing="false" onAction="#goLanguageRu" text="Владение языками" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
-            <Button layoutX="124.0" layoutY="241.0" mnemonicParsing="false" onAction="#goCourseRu" prefHeight="33.0" prefWidth="252.0" text="Курсы, тренинги, сертификаты" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
-            <Button layoutX="124.0" layoutY="366.0" mnemonicParsing="false" onAction="#goEducationRu" text="Образование" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
-            <Button layoutX="124.0" layoutY="117.0" mnemonicParsing="false" onAction="#goSummaryRu" prefHeight="33.0" prefWidth="252.0" text="Ключевая информация" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="123.0" layoutY="60.0" mnemonicParsing="false" onAction="#goObjectRu" prefHeight="33.0" prefWidth="252.0" text="Мета" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="165.0" layoutY="541.0" mnemonicParsing="false" onAction="#goMainMenu" text="До головного меню" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="124.0" layoutY="428.0" mnemonicParsing="false" onAction="#goAdditionalRu" text="Додаткова інформація" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="126.0" layoutY="178.0" mnemonicParsing="false" onAction="#goExperienceRu" prefHeight="33.0" prefWidth="252.0" text="Досвід роботи" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="124.0" layoutY="302.0" mnemonicParsing="false" onAction="#goLanguageRu" text="Володіння мовами" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="124.0" layoutY="241.0" mnemonicParsing="false" onAction="#goCourseRu" prefHeight="33.0" prefWidth="252.0" text="Курси, тренінги, сертифікати" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="124.0" layoutY="366.0" mnemonicParsing="false" onAction="#goEducationRu" text="Освіта" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
+            <Button layoutX="124.0" layoutY="117.0" mnemonicParsing="false" onAction="#goSummaryRu" prefHeight="33.0" prefWidth="252.0" text="Ключова інформація" textAlignment="CENTER" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="124.0" />
          </children>
       </AnchorPane>
    </children>
